@@ -46,42 +46,28 @@ p  {
 
 /* Write all remaining styles here */
 
-header a {
-	color: rgb(152,173,166);
-	text-decoration: none;
+a{
+text-decoration: none;
+}
+h1{
+	color: grey;
+	font-size: 3em;
 }
 
-header a:hover {
-	color: rgb(111,127,122);
+h2{
+	color: grey;
 }
 
-#featured img {
-	border: 5px rgb(152,173,166) solid;
+img{
+	border: 5px solid lightgray;
 }
 
-#featured a {
-	color: #1783bb;
-	text-decoration: none;
+#press img:hover{
+	border: 5px solid grey;
 }
 
-#featured a:hover {
-	text-decoration: underline;
-}
-
-#press {
-	margin-bottom: 20px;
-}
-
-#press img {
-	border: 5px #ccc solid;
-	padding: 1px;
-}
-
-#press img:hover {
-	border: 5px rgb(111,127,122) solid;
-}
-
-footer {
-	text-align: right;
-	background: #fff;
+footer p{
+	color: grey;
+	float: right;
+	font-size: 0.8em;
 }
